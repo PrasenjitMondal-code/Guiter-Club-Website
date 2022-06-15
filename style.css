@@ -1,0 +1,247 @@
+
+/* css on navigation */
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .navbar{
+    background-color: #0b1828!important;
+  
+  }
+  body{
+    background-color: #0a1d34;
+    min-width: 350px;
+   
+    
+  
+  }
+  
+    .img_1 img{
+      margin-right:23px;
+      width:50px;
+      height:40px;
+    }
+    .active{
+      color: Red!important;
+      background-color: transparent!important;
+    }
+    .nav-item{
+      font-weight: 600;
+    }
+   .input-group .form-control{
+      width: auto;
+    } 
+  
+  
+  
+  /* css on main area */
+  
+  .hero_area{
+    background-image: url('img/card 1 song/pexels-pixabay-210766.jpg');
+    height: 500px;
+    width: auto;
+  
+    background-position: 35% 99%;
+    background-size: cover;
+  
+    
+  }
+  /* small song item */
+  
+  
+  .m-2{
+    font-size: 11px;
+   }
+  
+  
+  
+  .song-small{
+    background-color: #052750;
+    background: linear-gradient(90deg, rgba(4,2,32,0.9876283276982668) 7%, rgba(5,39,80,0.9708216050091911) 66%, rgba(5,54,95,0) 100%, rgba(0,212,255,1) 100%);
+    transition: all .3s ease;
+    height: 60px;
+  
+  }
+  .song-small:hover{
+    
+    border: 1px solid gray;
+    transform: translatey(-7px);
+  }
+  
+  .rounded{
+    width:40px; 
+    height: 40px;
+    object-fit: cover;
+  }
+  
+  
+  
+  
+  
+  
+  /* css on card section */
+  
+   p{
+    margin-top: -5px!important;
+  
+  }
+  .card{
+    background-color: transparent;
+    color: aliceblue;
+  }
+  
+  
+  .song-category-title{
+    color:#2cc8e5 ;
+  }
+  .song-category-title::after{
+    content:'';
+    background-color:#2cc8e5 ;
+    height: 3px;
+    display: block;
+    margin-top: 15px;
+    background: linear-gradient(90deg, rgba(4,2,32,0.05205409800639005) 5%, rgba(5,28,65,1) 17%, rgba(5,39,80,0.9708216050091911) 76%, rgba(5,38,78,0.7551353304993873) 80%, rgba(44,200,229,0) 100%, rgba(0,212,255,1) 100%);
+  }
+  .card-img{
+  transition: 0.6s;
+  opacity: 1;
+  
+  }
+  .card-img:hover{
+    opacity: 0.7;
+    transform: translatey(-20px);
+   
+  
+  }
+  
+  
+  /* css on footer  */
+  
+  
+  
+  
+  
+       .contact-us ul{
+              list-style: none;
+              padding: 0;
+              /* display: flex; */
+              justify-content: start;
+              
+      } 
+       
+           
+       
+              
+          
+  
+  
+          .contact-us ul li a{
+              text-decoration: none;
+              color: rgb(156, 151, 151);
+              display: flex;
+              transition: all 0.3s ease;
+  
+          }
+  
+          .contact-us ul li a i{
+            margin: 10px;
+            font-size: 22px;
+          } 
+          .contact-us ul li a:hover{
+              color: aliceblue;
+              transform: translatex(10px);
+  
+              
+          }
+  
+          .col a {
+            text-decoration: none;
+            color: rgb(156, 151, 151);
+            
+            transition: all 0.3s ease;
+  
+  
+          }
+          .col a:hover{
+            padding-left: 15px;
+            color: aliceblue;
+          
+  
+          }
+  
+        .col p{
+          opacity: 0.5;
+        }
+  
+  .col li{
+    list-style: none;
+    margin-top: 9px;
+  
+  }
+  .col ul{
+    padding: 0;
+  
+  }
+  h5{
+    margin-bottom: 25px;
+    margin-top: 35px;
+  }
+  
+  span{
+    color:greenyellow;
+    
+    
+   }
+   .footer{
+    background-color: #0b1828;
+    
+   }
+   .row{
+    margin-top: 3rem;
+   }
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  @media(max-width:848px){
+   .card {
+      justify-content: space-between;
+      margin: 24px;
+      display: contents;
+      
+      
+      
+    }
+   } 
+  
+   
+   @media(max-width:839px){
+   .d-flex {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      
+    }
+    .card-img:hover{
+  transform: translatex(7px);
+  
+    }
+    
+    .card-body p{
+      margin-top: -15px !important;
+    }
+  
+  
+  
+    
+   } 
+   
+  
+   
