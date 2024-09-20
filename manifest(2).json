@@ -1,0 +1,23 @@
+{
+  "background_color": "#171c42",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Guitar Music Club",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Guitar Music Club",
+  "start_url": "https://www.guitarclub.in",
+  "theme_color": "#171c42",
+  "id": "prasenjit123",
+  "lang": "en",
+  "display_override": [
+    "browser",
+    "fullscreen",
+    "minimal-ui",
+    "standalone",
+    "window-controls-overlay"
+  ],
+  "categories": [
+    "music"
+  ]
+}
