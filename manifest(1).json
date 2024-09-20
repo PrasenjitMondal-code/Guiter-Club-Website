@@ -1,0 +1,13 @@
+{
+  "background_color": "#101c3c",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Guitar Music Club",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Guitar Music Club",
+  "start_url": "guitarclub",
+  "theme_color": "#121a3e",
+  "id": "Prasenjit123",
+  "lang": "en"
+}
