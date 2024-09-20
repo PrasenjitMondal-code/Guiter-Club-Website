@@ -1,0 +1,13 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "GuitarClub",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "GuitarClub",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "description": "A Progressive Web App is a modern web application that combines the best of both web and mobile experiences. are built using standard web technologies like HTML, CSS, and JavaScript, but they offer the look and feel of native apps. They are responsive, load quickly, work offline, and can be installed directly onto a user's device without needing to go through an app store.",
+  "lang": "en"
+}
