@@ -242,3 +242,12 @@ span {
     }
   }
 }
+@media only screen and (max-width: 360px) {
+  .song-small .w-50 {
+    width: 110% !important;
+  }
+  .col-5 {
+      width: 44.6666% !important;
+      flex: 0 0 auto;
+  }
+}
